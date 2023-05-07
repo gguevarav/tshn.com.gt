@@ -1,0 +1,227 @@
+/* Estilos generales */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #23527c;
+    text-decoration: underline;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Estilos de la sección "Inicio" */
+  
+  #inicio {
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #inicio h1 {
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0.5em;
+  }
+  
+  #inicio h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1.5em;
+  }
+  
+  #inicio a.btn {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 1em 2em;
+    font-size: 1.5em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #inicio a.btn:hover {
+    background-color: #23527c;
+  }
+  
+  /* Estilos de la sección "Quienes somos" */
+  
+  #quienes-somos {
+    background-color: #f5f5f5;
+    padding: 4em 0;
+  }
+  
+  #quienes-somos h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+  
+  #quienes-somos p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 1.5em;
+  }
+  
+  /* Estilos de la sección "Visión y Misión" */
+  
+  #vision-mision {
+    background-color: #fff;
+    padding: 4em 0;
+  }
+  
+  #vision-mision h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+  
+  #vision-mision p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 1.5em;
+  }
+  
+  /* Estilos de la sección "Catálogo de productos" */
+  
+  #catalogo {
+    background-color: #f5f5f5;
+    padding: 4em 0;
+  }
+  
+  #catalogo h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+  
+  #catalogo ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #catalogo li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: 1px solid #ccc;
+    }
+    
+    #catalogo li:last-child {
+    border-bottom: none;
+    }
+    
+    #catalogo li .producto-nombre {
+    font-size: 24px;
+    font-weight: bold;
+    }
+    
+    #catalogo li .producto-precio {
+    font-size: 18px;
+    color: #337ab7;
+    }
+    
+    /* Estilos de la sección "Contacto" */
+    
+    #contacto {
+    background-color: #fff;
+    padding: 4em 0;
+    }
+    
+    #contacto h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 1.5em;
+    }
+    
+    #contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+    }
+    
+    #contacto label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 0.5em;
+    }
+    
+    #contacto input[type="text"],
+    #contacto input[type="email"],
+    #contacto textarea {
+    width: 100%;
+    padding: 1em;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    }
+    
+    #contacto textarea {
+    height: 150px;
+    }
+    
+    #contacto input[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 1em 2em;
+    font-size: 1.5em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+    }
+    
+    #contacto input[type="submit"]:hover {
+    background-color: #23527c;
+    }
+    
+    /* Estilos de la sección "Footer" */
+    
+    #footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 2em 0;
+    text-align: center;
+    }
+    
+    #footer p {
+    margin: 0;
+    font-size: 14px;
+    }
+    
+    #footer a {
+    color: #ccc;
+    }
+    
+    #footer a:hover {
+    color: #fff;
+    }
+    
+    
